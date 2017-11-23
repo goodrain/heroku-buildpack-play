@@ -1,7 +1,7 @@
 Heroku buildpack for Play framework
 =========================
 
-云帮play框架的项目的源码构建核心部分是基于[Heroku buildpack](http://devcenter.heroku.com/articles/buildpack) for [Play framework](http://www.playframework.org/)实现的。由于Play1.x版本不支持Scala语言，所以云帮支持的Play框架版本是基于Play2.x版本。
+云帮play框架的项目的源码构建核心部分是基于[Heroku buildpack](https://github.com/heroku/heroku-buildpack-play) for [Play framework](http://www.playframework.org/)实现的。由于Play1.x版本不支持Scala语言，所以云帮支持的Play框架版本是基于Play2.x版本。
 
 ## 工作原理
 
@@ -25,4 +25,4 @@ web: target/start $JAVA_OPTS
 
 ## 授权
 
-根据 MIT 授权证获得许可。 请参阅LICENSE文件
+根据 MIT 授权获得许可。 请参阅LICENSE文件
